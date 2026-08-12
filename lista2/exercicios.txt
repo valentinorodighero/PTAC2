@@ -1,0 +1,29 @@
+1.
+
+a. GET
+b. 200 OK
+c. application/json
+
+2. Quando se digita no console JSON.stringify(), o objeto
+javascript digitado se transforma em uma string, e por isso
+recebe aspas na resposta
+
+3. '[{"id":1,"nome":"Ana"},{"id":2,"nome":"Beto"}]'
+Os problemas eram: As aspas do objeto são simples, e não duplas;
+As chaves precisam estar com chaves duplas;
+Os atributos string devem estar com aspas duplas, não simples
+
+4.
+
+a. 404 Not Found
+b. 400 Bad Request
+c. 403 Forbidden
+d. 500 Internal Server Error
+
+5.
+
+a. GET 401 Unauthorized
+b. 33 headers de resposta. Content-type: application/json;
+Date: Wed, 12 Aug 2026 21:22:34 GMT;
+Server: cloudflare
+c. application/json
