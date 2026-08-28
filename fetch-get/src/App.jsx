@@ -1,14 +1,13 @@
-import { useState } from "react";
+import {useState} from "react";
 
 export default function App() {
-  // código/lógica do componente
-  const [nome, setNome] = useState("Maria");
+  const [contador, setContador] = useState(0);
   return (
-    // JSX do componente
     <>
       <h1>PTAC 2</h1>
-      <p>Olá, {nome}</p>
-      <button onClick={() => setNome("João")}>Clique aqui</button>
+      <h2>Contador: {contador}</h2>
+      <button onClick={() => setContador(contador + 1)}>+</button>
+      <button onClick={() => setContador(contador - 1)}>-</button>
     </>
-  );
+  )
 }
