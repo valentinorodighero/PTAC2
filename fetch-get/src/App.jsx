@@ -1,13 +1,13 @@
-import {useState} from "react";
+import Decrement from "./components/Decrement";
+import Increment from "./components/Increment";
+import { useState } from "react";
 
 export default function App() {
-  const [contador, setContador] = useState(0);
   return (
     <>
-      <h1>PTAC 2</h1>
-      <h2>Contador: {contador}</h2>
-      <button onClick={() => setContador(contador + 1)}>+</button>
-      <button onClick={() => setContador(contador - 1)}>-</button>
+      <h1>Contador</h1>
+      <Increment />
+      <Decrement />
     </>
   )
 }
