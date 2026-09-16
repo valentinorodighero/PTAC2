@@ -1,4 +1,3 @@
-import Artigo from './Artigo.css';
 export default function Artigo(props) {
     return (
         <article>
