@@ -10,7 +10,6 @@ O projeto possui um contador que mostra a quantidade total de ideias e quantas j
 
 Primeiro, instale as dependências do projeto:
 
-"```bash"
 npm install
 
 Depois, inicie o servidor de desenvolvimento:
